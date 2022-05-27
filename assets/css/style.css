@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.box {
+  width: 100%;
+  height: 100vh;
+  background: url('../img/bg.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub-box {
+  width: 90%;
+  max-width: 440px;
+  text-align: center;
+  padding: 50px 35px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  background: rgba(255, 255, 255, .1);
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+  backdrop-filter: blur(6px);
+}
+.sub-box h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.title {
+  text-shadow: 1px 1px rgba(0, 0, 0, .3);
+}
+.sub-box select, 
+.sub-box select:focus {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: none;
+  outline: none;
+}
+#btnSubmit {
+  font-weight: 600;
+  background-color: #ffffff;
+  border: none;
+  padding: 6px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all .07s ease-in-out;
+}
+#btnSubmit:hover {
+  background-color: #f0f0f0;
+}
+
+/* Dashboard */
+.box-dashboard {
+  width: 100%;
+  height: 100vh;
+  background: url('../img/bg1.jpeg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub-box-dashboard {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  padding: 30px 35px 50px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  background: rgba(255, 255, 255, .1);
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+  backdrop-filter: blur(6px);
+  color: #ffffff;
+}
+.sub-box-dashboard h2 {
+  font-size: 56px;
+  font-weight: 600;
+}
+.sub-box-dashboard b {
+  font-size: 24px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.btn:hover, .btn:focus {
+  outline: none;
+}
+.fa-solid {
+  color: #ffffff;
+}
+.info-shift {
+  opacity: .5;
+}
+/* Dashboard Bawah */
+.countdownItem {
+  border: 1px solid rgba(255, 255, 255, .3);
+  background: rgba(255, 255, 255, .1);
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+  backdrop-filter: blur(6px);
+  padding: 16px;
+  width: 30%;
+}
+.titleCountdown {
+  font-size: 20px;
+  font-weight: 600;
+}
+.atas {
+  display: flex;
+  justify-content: space-around;
+}
+.theCountdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pemisah {
+  font-size: 28px;
+}
+.font-mono {
+  font-family: 'Share Tech Mono', monospace;
+}
+.jam, .menit, .detik {
+  text-align: center;
+}
+.angka {
+  font-size: 28px;
+  font-weight: 600;
+}
+.text {
+  font-size: 12px;
+}
+.bgTimer {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, .07);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navTimer {
+  display: flex;
+  justify-content: space-between;
+}
+.timer {
+  border: 1px solid rgba(255, 255, 255, .3);
+  background: rgba(255, 255, 255, .1);
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+  padding: 16px;
+  width: 35%;
+  align-items: center;
+  color: white;
+}
+.titleTimer {
+  text-align: center;
+  font-weight: 600;
+  font-size: 48px;
+}
+.timer-flex {
+  display: flex;
+  justify-content: space-around;
+  font-size: 72px;
+}
+.textTimer {
+  font-size: 24px;
+}
